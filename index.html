@@ -3,751 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Азия пенобетон</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header class="header">
-        <div class="container nav">
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="container nav-container">
 
-            <a href="#home" class="logo">
-                Азия пенобетон
+        <div class="logo">
+            <span>АЗИЯ</span> ПЕНОБЕТОН
+        </div>
+
+        <nav>
+            <a href="#home" data-uz="Bosh sahifa" data-ru="Главная">Bosh sahifa</a>
+            <a href="#products" data-uz="Apparatlar" data-ru="Оборудование">Apparatlar</a>
+            <a href="#about" data-uz="Biz haqimizda" data-ru="О нас">Biz haqimizda</a>
+            <a href="#contact" data-uz="Bog‘lanish" data-ru="Контакты">Bog‘lanish</a>
+        </nav>
+
+        <!-- LANGUAGE -->
+        <div class="language-switcher">
+            <button type="button" class="lang-btn active" data-lang="uz">UZ</button>
+            <button type="button" class="lang-btn" data-lang="ru">RU</button>
+        </div>
+
+    </div>
+</header>
+
+
+<!-- ================= MAIN ================= -->
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+    <div class="container hero-content">
+        <div class="hero-text">
+
+            <h1 data-uz="Penobeton ishlab chiqarish apparatlari"
+                data-ru="Оборудование для производства пенобетона">
+                Penobeton ishlab chiqarish apparatlari
+            </h1>
+
+            <p data-uz="Sifatli, ishonchli va zamonaviy penobeton apparatlari."
+               data-ru="Качественное, надежное и современное оборудование для пенобетона.">
+                Sifatli, ishonchli va zamonaviy penobeton apparatlari.
+            </p>
+
+            <a href="#products" class="main-btn"
+               data-uz="Apparatlarni ko‘rish"
+               data-ru="Посмотреть оборудование">
+                Apparatlarni ko‘rish
             </a>
 
-            <nav class="menu">
-                <a href="#home">Bosh sahifa</a>
-                <a href="#apparatlar">Apparatlar</a>
-                <a href="#biz-haqimizda">Biz haqimizda</a>
-                <a href="#aloqa">Bog‘lanish</a>
-            </nav>
-
-            <a href="#buyurtma" class="nav-button">
-                Buyurtma berish
-            </a>
-
         </div>
-    </header>
+    </div>
+</section>
 
 
-    <!-- HERO -->
-    <section id="home" class="hero">
+<!-- ================= PRODUCTS ================= -->
+<section class="products-section" id="products">
+    <div class="container">
 
-        <div class="container hero-content">
-
-            <div class="hero-text">
-
-                <span class="small-title">
-                    АЗИЯ ПЕНОБЕТОН
-                </span>
-
-                <h1>
-                    Sifatli apparatlar
-                    <span>va professional xizmat</span>
-                </h1>
-
-                <p>
-                    Dizel va elektr apparatlar.
-                    O‘zingizga mos apparatni tanlang
-                    va buyurtma bering.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#apparatlar" class="main-button">
-                        Apparatlarni ko‘rish
-                    </a>
-
-                    <a href="#buyurtma" class="second-button">
-                        Buyurtma berish
-                    </a>
-
-                </div>
-
-            </div>
-
-
-            <div class="hero-image">
-
-                <div class="image-placeholder">
-                    APPARAT RASMI
-                </div>
-
-            </div>
-
+        <div class="section-title">
+            <h2 data-uz="Penobeton apparatlari"
+                data-ru="Оборудование для пенобетона">
+                Penobeton apparatlari
+            </h2>
+            <p data-uz="Bizda turli xil penobeton apparatlari mavjud."
+               data-ru="У нас имеются различные виды оборудования для пенобетона.">
+                Bizda turli xil penobeton apparatlari mavjud.
+            </p>
         </div>
 
-    </section>
+        <div class="products-grid">
 
+            <!-- Rasm qo'shish uchun: <div class="image-placeholder">...</div> o'rniga
+                 <img src="images/fayl-nomi.jpg" alt="Apparat nomi"> yozing -->
 
-    <!-- APPARATLAR -->
-    <section id="apparatlar" class="products-section">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>MAHSULOTLAR</span>
-
-                <h2>
-                    Bizning apparatlar
-                </h2>
-
-                <p>
-                    Quyidagi apparatlardan o‘zingizga mosini tanlang.
-                </p>
-
+            <!-- APPARAT 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="image-placeholder">5200 R</div>
+                </div>
+                <h3>Mörtel Meister 5200 R</h3>
+                <p class="product-type"
+                   data-uz="Dizelda ishlaydigan aparat"
+                   data-ru="Аппарат с дизельным двигателем">Dizelda ishlaydigan aparat</p>
+                <button type="button" class="product-btn"
+                        data-product="Mörtel Meister 5200 R"
+                        data-uz="Buyurtma berish" data-ru="Заказать">Buyurtma berish</button>
             </div>
 
-
-            <div class="products-grid">
-
-                <!-- APPARAT 1 -->
-                <article class="product-card">
-
-                    <div class="product-image">
-
-                        <div class="image-placeholder">
-                            RASM 1
-                        </div>
-
-                    </div>
-
-                    <div class="product-content">
-
-                        <span class="product-number">
-                            01
-                        </span>
-
-                        <h3>
-                            Apparat 1
-                        </h3>
-
-                        <p>
-                            Kuchli va ishonchli apparat.
-                            Professional foydalanish uchun mos.
-                        </p>
-
-                        <div class="product-info">
-
-                            <div>
-                                <small>Turi</small>
-                                <strong>Dizel</strong>
-                            </div>
-
-                            <div>
-                                <small>Narxi</small>
-                                <strong>XX so‘m / m²</strong>
-                            </div>
-
-                        </div>
-
-                        <a
-                            href="#buyurtma"
-                            class="product-button"
-                            onclick="selectProduct('Apparat 1')"
-                        >
-                            Buyurtma berish
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- APPARAT 2 -->
-                <article class="product-card">
-
-                    <div class="product-image">
-
-                        <div class="image-placeholder">
-                            RASM 2
-                        </div>
-
-                    </div>
-
-                    <div class="product-content">
-
-                        <span class="product-number">
-                            02
-                        </span>
-
-                        <h3>
-                            Apparat 2
-                        </h3>
-
-                        <p>
-                            Zamonaviy, qulay va samarali apparat.
-                        </p>
-
-                        <div class="product-info">
-
-                            <div>
-                                <small>Turi</small>
-                                <strong>Elektr</strong>
-                            </div>
-
-                            <div>
-                                <small>Narxi</small>
-                                <strong>XX so‘m / m²</strong>
-                            </div>
-
-                        </div>
-
-                        <a
-                            href="#buyurtma"
-                            class="product-button"
-                            onclick="selectProduct('Apparat 2')"
-                        >
-                            Buyurtma berish
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- APPARAT 3 -->
-                <article class="product-card">
-
-                    <div class="product-image">
-
-                        <div class="image-placeholder">
-                            RASM 3
-                        </div>
-
-                    </div>
-
-                    <div class="product-content">
-
-                        <span class="product-number">
-                            03
-                        </span>
-
-                        <h3>
-                            Apparat 3
-                        </h3>
-
-                        <p>
-                            Yuqori unumdorlik uchun
-                            mo‘ljallangan professional apparat.
-                        </p>
-
-                        <div class="product-info">
-
-                            <div>
-                                <small>Turi</small>
-                                <strong>Dizel</strong>
-                            </div>
-
-                            <div>
-                                <small>Narxi</small>
-                                <strong>XX so‘m / m²</strong>
-                            </div>
-
-                        </div>
-
-                        <a
-                            href="#buyurtma"
-                            class="product-button"
-                            onclick="selectProduct('Apparat 3')"
-                        >
-                            Buyurtma berish
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- APPARAT 4 -->
-                <article class="product-card">
-
-                    <div class="product-image">
-
-                        <div class="image-placeholder">
-                            RASM 4
-                        </div>
-
-                    </div>
-
-                    <div class="product-content">
-
-                        <span class="product-number">
-                            04
-                        </span>
-
-                        <h3>
-                            Apparat 4
-                        </h3>
-
-                        <p>
-                            Ishlash uchun qulay,
-                            ishonchli va tejamkor apparat.
-                        </p>
-
-                        <div class="product-info">
-
-                            <div>
-                                <small>Turi</small>
-                                <strong>Elektr</strong>
-                            </div>
-
-                            <div>
-                                <small>Narxi</small>
-                                <strong>XX so‘m / m²</strong>
-                            </div>
-
-                        </div>
-
-                        <a
-                            href="#buyurtma"
-                            class="product-button"
-                            onclick="selectProduct('Apparat 4')"
-                        >
-                            Buyurtma berish
-                        </a>
-
-                    </div>
-
-                </article>
-
-
-                <!-- APPARAT 5 -->
-                <article class="product-card">
-
-                    <div class="product-image">
-
-                        <div class="image-placeholder">
-                            RASM 5
-                        </div>
-
-                    </div>
-
-                    <div class="product-content">
-
-                        <span class="product-number">
-                            05
-                        </span>
-
-                        <h3>
-                            Apparat 5
-                        </h3>
-
-                        <p>
-                            Katta hajmdagi ishlar uchun
-                            kuchli professional apparat.
-                        </p>
-
-                        <div class="product-info">
-
-                            <div>
-                                <small>Turi</small>
-                                <strong>Dizel</strong>
-                            </div>
-
-                            <div>
-                                <small>Narxi</small>
-                                <strong>XX so‘m / m²</strong>
-                            </div>
-
-                        </div>
-
-                        <a
-                            href="#buyurtma"
-                            class="product-button"
-                            onclick="selectProduct('Apparat 5')"
-                        >
-                            Buyurtma berish
-                        </a>
-
-                    </div>
-
-                </article>
-
+            <!-- APPARAT 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="image-placeholder">E 40 S</div>
+                </div>
+                <h3>E 40 S</h3>
+                <p class="product-type"
+                   data-uz="Qora suvoq aparati"
+                   data-ru="Аппарат для черновой штукатурки">Qora suvoq aparati</p>
+                <button type="button" class="product-btn"
+                        data-product="E 40 S"
+                        data-uz="Buyurtma berish" data-ru="Заказать">Buyurtma berish</button>
+            </div>
+
+            <!-- APPARAT 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <div class="image-placeholder">M9</div>
+                </div>
+                <h3>M9</h3>
+                <p class="product-type"
+                   data-uz="Rotor nasos aparati"
+                   data-ru="Аппарат с роторным насосом">Rotor nasos aparati</p>
+                <button type="button" class="product-btn"
+                        data-product="M9"
+                        data-uz="Buyurtma berish" data-ru="Заказать">Buyurtma berish</button>
             </div>
 
         </div>
+    </div>
+</section>
 
-    </section>
 
+<!-- ================= ORDER ================= -->
+<section class="order-section" id="order">
+    <div class="container">
 
-    <!-- BUYURTMA -->
-    <section id="buyurtma" class="order-section">
+        <div class="section-title">
+            <h2 data-uz="Buyurtma berish" data-ru="Оформить заказ">Buyurtma berish</h2>
+            <p data-uz="Ma'lumotlaringizni kiriting."
+               data-ru="Введите ваши данные.">Ma'lumotlaringizni kiriting.</p>
+        </div>
 
-        <div class="container order-container">
+        <form id="orderForm">
 
-            <div class="order-text">
-
-                <span class="small-title">
-                    BUYURTMA
-                </span>
-
-                <h2>
-                    Buyurtma berish
-                </h2>
-
-                <p>
-                    Ma’lumotlaringizni kiriting.
-                    So‘ngra buyurtmani Telegram orqali yuborishingiz mumkin.
-                </p>
-
+            <!-- NAME -->
+            <div class="form-group">
+                <label for="name" data-uz="Ismingiz" data-ru="Ваше имя">Ismingiz</label>
+                <input type="text" id="name" required
+                       placeholder="Ismingizni kiriting"
+                       data-placeholder-uz="Ismingizni kiriting"
+                       data-placeholder-ru="Введите ваше имя">
             </div>
 
-
-            <form id="orderForm" class="order-form">
-
-                <div class="form-group">
-
-                    <label for="name">
-                        Ismingiz
-                    </label>
-
-                    <input
-                        type="text"
-                        id="name"
-                        placeholder="Ismingizni kiriting"
-                        required
-                    >
-
+            <!-- PHONE -->
+            <div class="form-group">
+                <label for="phone" data-uz="Telefon raqamingiz"
+                       data-ru="Номер телефона">Telefon raqamingiz</label>
+                <div class="phone-input">
+                    <span>+998</span>
+                    <input type="text" id="phone" maxlength="12"
+                           inputmode="numeric" autocomplete="tel" required
+                           placeholder="90 123 45 67"
+                           data-placeholder-uz="90 123 45 67"
+                           data-placeholder-ru="90 123 45 67">
                 </div>
+            </div>
 
+            <!-- SQUARE -->
+            <div class="form-group">
+                <label for="square" data-uz="Maydon" data-ru="Площадь">Maydon</label>
+                <input type="number" id="square" min="1" required
+                       placeholder="Masalan: 500"
+                       data-placeholder-uz="Masalan: 500"
+                       data-placeholder-ru="Например: 500">
+            </div>
 
-                <div class="form-group">
-
-                    <label for="phone">
-                        Telefon raqamingiz
-                    </label>
-
-                    <input
-                        type="tel"
-                        id="phone"
-                        placeholder="+998 90 123 45 67"
-                        required
-                    >
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="square">
-                        Maydon necha m²?
-                    </label>
-
-                    <input
-                        type="number"
-                        id="square"
-                        placeholder="Masalan: 120"
-                        min="1"
-                        required
-                    >
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="location">
-                        Lokatsiya
-                    </label>
-
-                    <input
-                        type="text"
-                        id="location"
-                        placeholder="Manzil yoki lokatsiya"
-                        required
-                    >
-
-                </div>
-
-
-                <div class="form-group">
-
-                    <label for="product">
-                        Apparatni tanlang
-                    </label>
-
-                    <select id="product" required>
-
-                        <option value="">
-                            Apparatni tanlang
-                        </option>
-
-                        <option value="Apparat 1">
-                            Apparat 1
-                        </option>
-
-                        <option value="Apparat 2">
-                            Apparat 2
-                        </option>
-
-                        <option value="Apparat 3">
-                            Apparat 3
-                        </option>
-
-                        <option value="Apparat 4">
-                            Apparat 4
-                        </option>
-
-                        <option value="Apparat 5">
-                            Apparat 5
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-                <button
-                    type="submit"
-                    class="submit-button"
-                >
-                    Telegram orqali yuborish
+            <!-- LOCATION -->
+            <div class="form-group">
+                <label for="location" data-uz="Lokatsiya"
+                       data-ru="Местоположение">Lokatsiya</label>
+                <input type="text" id="location" readonly
+                       placeholder="Lokatsiyani aniqlash uchun tugmani bosing"
+                       data-placeholder-uz="Lokatsiyani aniqlash uchun tugmani bosing"
+                       data-placeholder-ru="Нажмите кнопку для определения местоположения">
+                <button type="button" class="main-btn location-btn" id="locationButton"
+                        data-uz="📍 Lokatsiyani aniqlash"
+                        data-ru="📍 Определить местоположение">
+                    📍 Lokatsiyani aniqlash
                 </button>
+            </div>
 
-            </form>
+            <!-- PRODUCT -->
+            <div class="form-group">
+                <label for="product" data-uz="Apparatni tanlang"
+                       data-ru="Выберите оборудование">Apparatni tanlang</label>
+                <select id="product" required>
+                    <option value="" data-uz="Apparatni tanlang"
+                            data-ru="Выберите оборудование">Apparatni tanlang</option>
+                    <option value="Mörtel Meister 5200 R"
+                            data-uz="Mörtel Meister 5200 R (dizel)"
+                            data-ru="Mörtel Meister 5200 R (дизель)">Mörtel Meister 5200 R (dizel)</option>
+                    <option value="E 40 S"
+                            data-uz="E 40 S (qora suvoq)"
+                            data-ru="E 40 S (черновая штукатурка)">E 40 S (qora suvoq)</option>
+                    <option value="M9"
+                            data-uz="M9 (rotor nasos)"
+                            data-ru="M9 (роторный насос)">M9 (rotor nasos)</option>
+                </select>
+            </div>
+
+            <!-- SUBMIT -->
+            <button type="submit" class="submit-btn"
+                    data-uz="Telegram orqali buyurtma berish"
+                    data-ru="Заказать через Telegram">
+                Telegram orqali buyurtma berish
+            </button>
+
+        </form>
+
+    </div>
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+<section class="about-section" id="about">
+    <div class="container">
+
+        <div class="section-title">
+            <h2 data-uz="Biz haqimizda" data-ru="О нас">Biz haqimizda</h2>
+        </div>
+
+        <div class="about-content">
+            <p data-uz="Азия пенобетон — penobeton ishlab chiqarish apparatlarini taklif qiluvchi kompaniya."
+               data-ru="Азия пенобетон — компания, предлагающая оборудование для производства пенобетона.">
+                Азия пенобетон — penobeton ishlab chiqarish apparatlarini taklif qiluvchi kompaniya.
+            </p>
+
+            <p>
+                Telegram:
+                <a href="https://t.me/penobeton_xorezm" target="_blank" rel="noopener">@penobeton_xorezm</a>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+<section class="contact-section" id="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <h2 data-uz="Bog‘lanish" data-ru="Контакты">Bog‘lanish</h2>
+        </div>
+
+        <div class="contact-content">
+
+            <p>📞 <a href="tel:+998995058577">+998 99 505 85 77</a></p>
+            <p>📞 <a href="tel:+998995015566">+998 99 501 55 66</a></p>
+
+            <p>
+                Telegram:
+                <a href="https://t.me/penobeton_xorezm" target="_blank" rel="noopener">@penobeton_xorezm</a>
+            </p>
+
+            <p>
+                <span data-uz="Buyurtma:" data-ru="Заказ:">Buyurtma:</span>
+                <a href="https://t.me/MKSh9o" target="_blank" rel="noopener">@MKSh9o</a>
+            </p>
 
         </div>
 
-    </section>
+    </div>
+</section>
 
+</main>
 
-    <!-- BIZ HAQIMIZDA -->
-    <section id="biz-haqimizda" class="about-section">
 
-        <div class="container about-container">
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container">
+        <p data-uz="© 2026 Азия пенобетон. Barcha huquqlar himoyalangan."
+           data-ru="© 2026 Азия пенобетон. Все права защищены.">
+            © 2026 Азия пенобетон. Barcha huquqlar himoyalangan.
+        </p>
+    </div>
+</footer>
 
-            <div class="about-image">
 
-                <div class="image-placeholder">
-                    KORXONA RASMI
-                </div>
-
-            </div>
-
-
-            <div class="about-content">
-
-                <span class="small-title">
-                    BIZ HAQIMIZDA
-                </span>
-
-                <h2>
-                    Biz haqimizda
-                </h2>
-
-                <p>
-                    Biz penobeton ishlab chiqarish va
-                    maxsus apparatlar bilan bog‘liq
-                    xizmatlarni taklif qilamiz.
-                    Sifatli uskunalar va qulay xizmat
-                    ko‘rsatishga e’tibor qaratamiz.
-                </p>
-
-
-                <div class="about-items">
-
-                    <div class="about-item">
-                        <strong>5+</strong>
-                        <span>apparat turi</span>
-                    </div>
-
-                    <div class="about-item">
-                        <strong>100+</strong>
-                        <span>buyurtmalar</span>
-                    </div>
-
-                    <div class="about-item">
-                        <strong>24/7</strong>
-                        <span>aloqa</span>
-                    </div>
-
-                </div>
-
-
-                <div class="address-box">
-
-                    <strong>
-                        Telegram kanalimiz:
-                    </strong>
-
-                    <p>
-                        <a
-                            href="https://t.me/penobeton_xorezm"
-                            target="_blank"
-                        >
-                            t.me/penobeton_xorezm
-                        </a>
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- ALOQA -->
-    <section id="aloqa" class="contact-section">
-
-        <div class="container">
-
-            <div class="section-title">
-
-                <span>
-                    ALOQA
-                </span>
-
-                <h2>
-                    Biz bilan bog‘lanish
-                </h2>
-
-                <p>
-                    Savollar va buyurtmalar uchun
-                    biz bilan bog‘laning.
-                </p>
-
-            </div>
-
-
-            <div class="contact-grid">
-
-
-                <!-- TELEFON 1 -->
-                <a
-                    href="tel:+998995058577"
-                    class="contact-card"
-                >
-
-                    <span>
-                        Telefon
-                    </span>
-
-                    <strong>
-                        +998 99 505 85 77
-                    </strong>
-
-                </a>
-
-
-                <!-- TELEFON 2 -->
-                <a
-                    href="tel:+998995015566"
-                    class="contact-card"
-                >
-
-                    <span>
-                        Telefon
-                    </span>
-
-                    <strong>
-                        +998 99 501 55 66
-                    </strong>
-
-                </a>
-
-
-                <!-- TELEGRAM KANAL -->
-                <a
-                    href="https://t.me/penobeton_xorezm"
-                    target="_blank"
-                    class="contact-card"
-                >
-
-                    <span>
-                        Telegram kanal
-                    </span>
-
-                    <strong>
-                        @penobeton_xorezm
-                    </strong>
-
-                </a>
-
-
-                <!-- USERNAME -->
-                <a
-                    href="https://t.me/MKSh9o"
-                    target="_blank"
-                    class="contact-card"
-                >
-
-                    <span>
-                        Username
-                    </span>
-
-                    <strong>
-                        @MKSh9o
-                    </strong>
-
-                </a>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-    <footer class="footer">
-
-        <div class="container footer-content">
-
-            <div>
-
-                <strong>
-                    Азия пенобетон
-                </strong>
-
-                <p>
-                    Professional apparatlar va xizmatlar.
-                </p>
-
-            </div>
-
-
-            <div>
-
-                <a href="#home">
-                    Bosh sahifa
-                </a>
-
-                <a href="#apparatlar">
-                    Apparatlar
-                </a>
-
-                <a href="#biz-haqimizda">
-                    Biz haqimizda
-                </a>
-
-                <a href="#aloqa">
-                    Aloqa
-                </a>
-
-            </div>
-
-        </div>
-
-
-        <div class="copyright">
-
-            © 2026 Азия пенобетон.
-            Barcha huquqlar himoyalangan.
-
-        </div>
-
-    </footer>
-
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
